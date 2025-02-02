@@ -1,24 +1,18 @@
-# Flight Price Prediction using Linear Regression
+# Flight Price Prediction Web App using Linear Regression
 
-This project aims to predict flight prices based on various features such as departure and arrival dates, airline, source and destination airports, and more. The model is built using a Linear Regression algorithm.
+This project is a web application built using Python and Streamlit that predicts flight prices based on various features. The machine learning model used for prediction is Linear Regression, and the app allows users to input flight details to estimate the price.
 
 ## Project Overview
 
-The goal of this project is to build a machine learning model that can predict the price of a flight ticket based on a variety of input features. We used a Linear Regression model to solve this problem, utilizing a dataset containing historical flight price data.
+The goal of this project is to create a user-friendly web application where users can input flight details, and the model will predict the expected flight price. The Linear Regression model is trained on historical flight data that includes features such as airline, source, destination, flight duration, and more.
 
 ## Dataset
 
-The dataset used in this project contains flight details including the following features:
+The dataset used for this project is the [Flight Price Prediction dataset](https://www.kaggle.com/datasets), which contains historical flight prices along with associated flight details like:
 
-- `Airline`: The airline operating the flight.
-- `Source`: The source airport.
-- `Destination`: The destination airport.
-- `Date_of_Journey`: The date the flight was booked.
-- `Dep_Time`: The time the flight departs.
-- `Arrival_Time`: The time the flight arrives.
-- `Duration`: The duration of the flight.
-- `Total_Stops`: The number of stops in the flight.
-- `Additional_Info`: Additional flight details such as whether the flight is non-stop, etc.
-- `Price`: The target variable (the flight price to be predicted).
-
-For detailed information, refer to the dataset.
+- `Airline`: Airline name
+- `Source`: The source airport code
+- `Destination`: The destination airport code
+- `Duration`: The duration of the flight
+- `Date`: Date of the flight
+- `Price`: The price of the flight (target variable)
